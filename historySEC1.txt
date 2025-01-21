@@ -1,0 +1,500 @@
+  118  cd
+  119  find grep -r "statistics" /root/Desktop/host/p1_basic_unix | tee "/root/Desktop/host/p1_basic_unix/cache/images/grep_stat_all.txt"
+  120  grep "statistics" /root/Desktop/host/p1_basic_unix | tee "/root/Desktop/host/p1_basic_unix/cache/images/grep_stat_all.txt"
+  121  ls
+  122  cd
+  123  cd /root/Desktop/host
+  124  ls
+  125  cd p1_basic_unix
+  126  ls
+  127  grep -rH "statistics" . | tee "./p1_basic_unix/cache/images/grep_stat_all.txt"
+  128  cd cache
+  129  ls
+  130  cd ..
+  131  grep -r 'statistics' . | tee cache/images/grep_stat_all.txt
+  132  cd cache
+  133  ls
+  134  cd images
+  135  ls
+  136  cat grep_stat_all.txt
+  137  cd ..
+  138  ls
+  139  cd ..
+  140  ls
+  141  cd ..
+  142  tar -czvf p1_basic_unix.tar.gz /root/Desktop/host/p1_basic_unix
+  143  sha256sum p1_basic_unix.tar.gz
+  144  ls
+  145  mkdir Archive_P1
+  146  cd Archive_P1
+  147  git init
+  148  cp /root/Desktop/host/p1_basic.tar.gz /root/Desktop/host/Archive_P1
+  149  cp /root/Desktop/host/p1_basic_unix.tar.gz /root/Desktop/host/Archive_P1
+  150  ls
+  151  git branch
+  152  git status
+  153  git add .
+  154  git commit -m "what is happening"
+  155  git config cornnat
+  156  git config --global user.name cornnat
+  157  git commit -m "what is happening"
+  158  git config --global user.email nataliekim@ucsb.edu
+  159  git config --global user.name cornnat
+  160  git config --global user.name
+  161  git commit -m "Initial commit"
+  162  git log
+  163  git remote add origin https://github.com/cornnat/hw-1-p-1.git
+  164  git push -u origin main
+  165  git remote add origin https://github.com/cornnat/hw-1-p-1.git
+  166  git branch
+  167  git branch -m master main
+  168  git add .
+  169  git commit -m
+  170  git commit -m "intial commit"
+  171  git push -u origin main
+  172  git pull origin main
+  173  git commit -m 'Merge remote-tracking branch 'origin/main'"
+  174  git push origin main
+  175  git pull origin main
+  176  git commit -m "Merge remote-tracking branch 'origin/main'"
+  177  git push origin main
+  178  git remote -v
+  179  git init
+  180  ls
+  181  sha256sum1.tar.gz
+  182  history | tail -n 1000000 >> history.txt
+  183  ls
+  184  sha256sum p1_basic_unix.tar.gz
+  185  echo "(d50cbbd697319eac68f7ede83d84a725d7afa99d6861cd0205147b769d1e82bb  p1_basic_unix.tar.gz)" > sha256sum_problem_set1.txt
+  186  ls
+  187  git init
+  188  git branch
+  189  git push -u origin main
+  190  git remote -v
+  191  git branch
+  192  git status
+  193  git add .
+  194  git status
+  195  git commit -m "hw 1 kill me with a rock"
+  196  git push -u origin main
+  197  git remote remove origin
+  198  git remote add origin https://github.com/cornnat/hw1p1.git
+  199  git remote -v
+  200  git add .
+  201  git status
+  202  git commit -m "hello get the rock"
+  203  git commit -m "hello get the rock"
+  204  ls
+  205  git push -u origin main
+  206  git clone https://github.com/cornnat/NK-PHYS129.git
+  207  cd /
+  208  cd /root
+  209  cd /
+  210  ls
+  211  cd bin
+  212  ls
+  213  cd /root/Desktop
+  214  ls
+  215  cd /home
+  216  ls
+  217  cd
+  218  cd /p1_basic_unix
+  219  ls
+  220  cd root
+  221  cd /
+  222  ls
+  223  git config --global --list
+  224  git clone https://github.com/cornnat/P2.git
+  225  ls
+  226  cd p2
+  227  ls
+  228  cd problem1
+  229  ls
+  230  git remote -v
+  231  git branch
+  232  git pull origin main
+  233  cd ..
+  234  cd ..
+  235  git ls-tree -r main
+  236  cd p2
+  237  git ls-tree -r main
+  238  tree -L 2
+  239  cd /problem_1
+  240  ls
+  241  cd /problem1
+  242  cd problem1
+  243  ls
+  244  git config --global --list
+  245  git clone https://github.com/cornnat/P2.git
+  246  git remote -v
+  247  git clone https://github.com/cornnat/P2.git
+  248  git remote set-url origin https://github.com/cornnat/P2.git
+  249  git remote -v
+  250  git fetch origin
+  251  ls
+  252  cd p2
+  253  ls
+  254  cd problem1
+  255  ls
+  256  cd electron_scattering_data
+  257  ls
+  258  cd ..
+  259  rm ./*.bin
+  260  ls
+  261  echo "file_remove test" > test.txt
+  262  ls
+  263  rm ./test.txt
+  264  ls
+  265  echo "file_remove test" > test.bin
+  266  ls
+  267  nano ~/.bashrc
+  268  alias file_remove='function _file_remove(){ rm "$1"/*.bin; }; _file_remove'
+  269  source ~/.bashrc
+  270  echo $SHELL
+  271  nano ~/.bashrc
+  272  file_remove /root/Desktop/host/p2/problem1
+  273  ls
+  274  cd electron_scattering_data
+  275  ls
+  276  code file_remove_script.sh
+  277  echo "test test test" > test.bin
+  278  ls
+  279  mv file_remove_script.sh /root/Desktop/host/p2
+  280  mv test.bin /root/Desktop/host/p2
+  281  cd ..
+  282  cd ..
+  283  ls
+  284  chmod +x file_remove_script.sh
+  285  ./file_remove_script.sh /root/Desktop/host/p2
+  286  ls
+  287  file_remove .
+  288  ls
+  289  cd problem1
+  290  ls
+  291  cd ..
+  292  code sort_files.sh
+  293  ls
+  294  code sort_files_even_odd.sh
+  295  chmod +x sort_files_even_odd.sh
+  296  source sort_files_even_odd.sh
+  297  sort_files_even_odd ./problem1/electron_scattering_data
+  298  ls
+  299  cd problem 1
+  300  cd problem1
+  301  ls
+  302  cd electron_scattering_data
+  303  ls
+  304  cd even
+  305  ls
+  306  cd ..
+  307  cd ..
+  308  cd ..
+  309  ls
+  310  git add .
+  311  git add .
+  312  history | tail -n 100000 >> history.txt
+  313  ls
+  314  git add .
+  315  git commit -m "bash scripts for file removal and sorting. includes history of commands"
+  316  git push origin main
+  317  git init
+  318  git remote add origin https://github.com/cornnat/HW1-P3.git
+  319  git remote -v
+  320  git remote set-url origin https://github.com/cornnat/HW1-P3.git
+  321  git remote -v
+  322  git push -u origin main
+  323  https://github.com/cornnat/HW1-P3.git
+  324  git reset HEAD~1
+  325  git push --force
+  326  git reset HEAD~2
+  327  git reset HEAD~1
+  328  git push --force
+  329  git reset HEAD~1
+  330  git push --force
+  331  ls -la
+  332  git status
+  333  git remote -v
+  334  git log
+  335  ls
+  336  cd ..
+  337  ls
+  338  cd host
+  339  ls
+  340  mkdir Problem_3
+  341  cd problem_3
+  342  ls
+  343  git init
+  344  git remote -v
+  345  git remote add origin https://github.com/cornnat/HW1-P3.git
+  346  git remote -v
+  347  git branch
+  348  git status
+  349  git branch -m master main
+  350  git status
+  351  git push -u origin master
+  352  git branch
+  353  git status
+  354  git init
+  355  git checkout -b main
+  356  git branch
+  357  git push -u origin main
+  358  git checkout -b main
+  359  echo "test" > file.txt
+  360  git add file.txt
+  361  git commit -m "test commit"
+  362  git branch
+  363  code convert_decimal.sh
+  364  chmod +x convert_decimal.sh
+  365  ./convert_decimal.sh
+  366  ./convert_decimal.sh 
+  367  ./convert_decimal.sh 
+  368  ./convert_decimal.sh 400
+  369  ls
+  370  rm file.txt 
+  371  ls
+  372  cat conversion_result.txt
+  373  git status
+  374  git add .
+  375  git commit -m "adding conversion script and conversion result file"
+  376  git push origin main
+  377  git checkout main
+  378  git fetch origin
+  379  git push origin main --force
+  380  git status
+  381  history | tail -n 100000 >> history.txt
+  382  ls
+  383  git add .
+  384  git commit -m "adding terminal history"
+  385  git push origin main
+  386  ls
+  387  mkdir HW1_P4
+  388  cd hw1_p4
+  389  ls
+  390  git remote -v
+  391  git remote set-url origin https://github.com/cornnat/SEC1.git
+  392  git remote -v
+  393  git init
+  394  git pull origin main
+  395  git pull main
+  396  git branch
+  397  git checkout main
+  398  git checkout master
+  399  git branch -r
+  400  git checkout -b main origin/main
+  401  git branch -r
+  402  git remote -v
+  403  git remote add origin https://github.com/cornnat/SEC1.git
+  404  git remote -v
+  405  git fetch origin
+  406  git checkout main
+  407  git status
+  408  git checkout feature_branch
+  409  git checkout -b feature_branch
+  410  git rev-parse --show-toplevel
+  411  echo "hello world!" > README.md
+  412  ls
+  413  git add .
+  414  git commit -m "added README file for HW 1 P 4"
+  415  git push origin feature branch
+  416  git checkout feature_branch
+  417  ls
+  418  git push origin feature_branch
+  419  ls
+  420  rm ./*.pdf
+  421  rm ./*txt
+  422  ls
+  423  git rm section_worksheet_week1.pdf
+  424  git commit -m "removed extra files copied over from main branch"
+  425  git push origin feature_branch
+  426  git push origin feature_branch --force
+  427  git rm src_info.txt
+  428  git rm test_info.txt
+  429  git rm Section_worksheet_Week1.pdf
+  430  git commit -m "removed extra files copied over from main branch"
+  431  git push origin feature_branch
+  432  git checkout main
+  433  git pull origin main
+  434  git merge feature_branch
+  435  git commit -m "merge feature_branch into main"
+  436  git status
+  437  git push origin main
+  438  ls
+  439  git log
+  440  git revert 63ac19ab087397a2edea2819d606921794c56b5e
+  441  git remote -v
+  442  git reset --soft HEAD~1
+  443  git reset --hard HEAD~1
+  444  git log
+  445  git status
+  446  ls -a
+  447  cd hw1_p4
+  448  ls
+  449  ls
+  450  cd ..
+  451  cat src_info.txt
+  452  cat test_info.txt
+  453  git status
+  454  git log --oneline
+  455  git add src_info.txt
+  456  git add test_info.txt
+  457  git commit -m "adding back the section 1 work i accidentally deleted. hope it's all the same"
+  458  git push origin main
+  459  git pull origin main
+  460  git status
+  461  git push origin main
+  462  git pull origin main
+  463  cat README.md
+  464  history | tail -n 100000 >> history.txt
+  465  git add history.txt
+  466  git push origin main
+  467  ls
+  468  git add history.txt
+  469  git push origin main
+  470  git status
+  471  git commit -m "terminal history"
+  472  git push origin main
+  473  ls
+  474  mv readme.md ./hw1_p4
+  475  mv history.txt history_hw1p4.txt
+  476  mv history_hw1p4.txt ./hw1_p4
+  477  ls
+  478  mv P2 HW1_P2
+  479  mv Problem_3 HW1_P3
+  480  cat test_4.txt
+  481  ls
+  482  mkdir SEC1
+  483  mv src_info.txt ./SEC1
+  484  ls
+  485  mv p1_basic_unix ./Archive_P1
+  486  mv p1_basic_unix.tar.gz  ./Archive_P1/
+  487  ls
+  488  mv mesh.dat ./SEC1/
+  489  mkdir SEC2
+  490  mv sec2.py ./SEC2
+  491  mv sec2.ipynb ./SEC2
+  492  ls
+  493  mv test_4.txt ./Archive_P1/
+  494  mv test_info.txt ./Archive_P1/
+  495  mv mesh_visualized_test.png ./SEC2
+  496  ls
+  497  mv Section_worksheet_Week2.pdf ./SEC2
+  498  ls
+  499  ls
+  500  mv ./SEC1 ./SEC1-whoops
+  501  ls
+  502  mkdir SEC1
+  503  ls
+  504  cd SEC1
+  505  git init
+  506  git config --list
+  507  git checkout -b main
+  508  git remote add origin https://github.com/cornnat/SEC1.git
+  509  git remote -v
+  510  echo "(this is a message from local main branch)" >> src_info.txt
+  511  ls
+  512  cat src_info.txt
+  513  git add src_info.txt
+  514  git commit -m "add a message from the local main branch"
+  515  git status
+  516  git log
+  517  git reset HEAD~1
+  518  git status
+  519  git log
+  520  echo "(this is a message from local main branch)" >> src_info.txt
+  521  cat src_info.txt
+  522  git add src_info.txt
+  523  git commit -m "add a message from the local main branch"
+  524  git push origin main
+  525  git checkout -b feature branch
+  526  echo "(this is a message from local feature branch)"
+  527  echo "(this is a message from local feature branch to test_info)" >> ../test/test_info.txt
+  528  ls
+  529  mkdir test
+  530  echo "(this is a message from local feature branch to test_info)" >> ../test/test_info.txt
+  531  ls
+  532  cd test
+  533  echo "(this is a message from local feature branch to test_info)" >> ../test/test_info.txt
+  534  ls
+  535  git status
+  536  git checkout -b feature_branch
+  537  ls
+  538  git status
+  539  git add .
+  540  git status
+  541  git commit -m "new branch with two changes"
+  542  git push -u origin feature _branch
+  543  git push -u origin feature_branch
+  544  git log
+  545  git checkout main
+  546  git merge feature_branch
+  547  cd ..
+  548  git merge feature branch
+  549  git merge feature_branch
+  550  git status
+  551  git log
+  552  git fetch origin
+  553  git status
+  554  git diff main origin/main
+  555  git reset --hard HEAD~1
+  556  cat src_info.txt
+  557  git reset --hard
+  558  git reset --hard
+  559  cat src_info.txt
+  560  ls
+  561  ls -a
+  562  mkdir test
+  563  ls
+  564  cd test
+  565  cd ..
+  566  git checkout -b feature_branch
+  567  git checkout feature_branch
+  568  echo "(this is a message from local feature branch)" >> src_info.txt
+  569  echo "(this is a message from local feature branch to test_info)" >> ../test/test_info.txt
+  570  echo "(this is a message from local feature branch to test_info)" >> ./test/test_info.txt
+  571  ls
+  572  cd test
+  573  ls
+  574  cat test_info.txt
+  575  cd ..
+  576  git status
+  577  git add .
+  578  git status
+  579  git commit -m "new branch with two changes"
+  580  git push -u origin feature branch
+  581  git push -u origin feature_branch
+  582  git log
+  583  git checkout main
+  584  git merge feature_branch
+  585  git status
+  586  git log
+  587  git push origin main
+  588  git fetch origin
+  589  git status
+  590  git diff main origin/main
+  591  git reset --hard HEAD~1
+  592  cat src_info.txt 
+  593  git reset --hard
+  594  cat src_info.txt 
+  595  git pull origin main
+  596  cd ..
+  597  ls
+  598  cd NK-PHYS129/
+  599  ls
+  600  cd ..
+  601  cd ..
+  602  ls
+  603  cd host
+  604  ls
+  605  mkdir git_clone_SEC1
+  606  cd git_clone_SEC1/
+  607  git clone https://github.com/Physics-129AL/git_example.git
+  608  ls
+  609  cd git_example/
+  610  ls
+  611  git status
+  612  git log
+  613  cd ..
+  614  cd ..
+  615  ls
+  616  cd SEC1
+  617  history | tail -n 10000 >> historySEC1.txt
