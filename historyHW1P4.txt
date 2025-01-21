@@ -1,0 +1,25 @@
+  622  echo "hello world!">>README.md
+  623  ls
+  624  git add .
+  625  git commit -m  "adding README for HW1P4" 
+  626  git push origin feature_branch
+  627  git merge feature_branch
+  628  git checkout main
+  629  git merge feature_branch
+  630  git status
+  631  git push origin main
+  632  git pull
+  633  ls
+  634  cat README.md 
+  635  git pull remote main
+  636  git pull origin main
+  637  cat README.md 
+  638  history | tail -n 1000
+  639  history | sed -n '621, 638p' > historyHW1P4.txt
+  640  ls
+  641  cat history
+  642  cat historyHW1P4.txt
+  643  history | sed -n '621,638p' > historyHW1P4.txt
+  644  cat historyHW1P4.txt 
+  645  history
+  646  history | tail -n 25 > historyHW1P4.txt 
